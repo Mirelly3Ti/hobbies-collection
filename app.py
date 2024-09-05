@@ -20,6 +20,6 @@ def index():
         livros = []
 
     return render_template('index.html', livros=livros)
-    
+
 if __name__ == '__main__':
     app.run(port=5001, debug=True)
